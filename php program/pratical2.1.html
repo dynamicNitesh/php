@@ -1,0 +1,88 @@
+<html>  
+    <head>   
+    <title>  
+    REGISTRATION FORM 
+    </title>  
+    </head> 
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        h1{
+            text-align: center;
+            color:dodgerblue;
+        }
+        body{
+            background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+        }
+        .bar{
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     display: inline-block;
+     border: 1px solid black;
+     border-radius: 4px;
+     box-sizing: border-box;
+        }
+    </style> 
+    <body>    
+    <form>  
+        <h1>REGISTRATION FORM</h1>
+        <div class="bar">
+    <label> FIRST NAME: </label>         
+    <input type="text" name="firstname"> <br> <br>  
+    <label> MIDDLE NAME: </label>     
+    <input type="text" name="middlename"> <br> <br>  
+    <label> LAST NAME: </label>       
+    <input type="text" name="lastname"> <br> <br>   
+    ADDRESS: 
+    <br>  
+    <textarea cols="50" rows="3" value="address">  
+    </textarea>
+    <br>
+    <br>
+    <br>
+    <select>  
+    <option value="state">SELECT STATE</option>  
+    <option value="g">GUJARAT</option>  
+    <option value="t">TAMIL NADAU</option>  
+    <option value="w">WEST BENGAL</option>  
+    <option value="m">MUMBAI</option>  
+    <option value="u">UTTAR PRADESH</option>  
+    <option value="h">HYDARABAD</option>  
+    </select>  
+    <br>  
+    <br>  
+    <label>   
+        GENDER: 
+    </label><br>  
+    <input type="radio" name="male"/> Male <br>  
+    <input type="radio" name="female"/> Female <br>   
+    <br>  
+    <br>     
+    <label>   
+        PHONE NO: 
+    </label>  
+    <input type="text" name="country code"  value="+91" size="3">   
+    <input type="text" name="phone" size=20"/> <br> <br>    
+    <br> <br>  
+    Email:  
+    <input type="email" id="email" name="email"/> <br>    
+    <br> <br>  
+    PASSWORD:  
+    <input type="Password" id="pass" name="pass"> <br>   
+    <br> <br>  
+    RE ENTER PASSWORD:  
+    <input type="Password" id="repass" name="repass"> <br> <br>  
+    
+    SUGGESTION BOX: 
+    <br>  
+    <textarea cols="80" rows="10" value="address">  
+    </textarea>
+    <br>
+    <br>
+    <input type="button" value="">
+    <button class="py-2 px-5 bg-orange-500 text-black font-semibold rounded-full shadow-md hover:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-400 focus:ring-opacity-75">
+        S     U     B     M     I     T
+    </div>
+    </form>  
+    </body>  
+    </html>  

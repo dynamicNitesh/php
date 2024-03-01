@@ -1,0 +1,23 @@
+<?php
+    if(isset($_GET['op']))
+    {
+        $x=$_GET['num1'];
+        $y=$_GET['num2'];
+        $open=$_GET['op'];
+        switch($open)
+        {
+            case'+':$result=$x+$y;
+            echo"sum=",$result;
+            break;
+            case'-':$result=$x-$y;
+            echo"sub=",$result;
+            break;
+            case'*':$result=$x*$y;
+            echo"multi=",$result;
+            break;
+            case'/':$result=$x/$y;
+            echo"div=",$result;
+            break;
+        }
+    }
+    ?>
